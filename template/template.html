@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>{pageTitle}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/font-awesome.css">
+        <script type="text/javascript" src="../js/{javaScriptList}.js" ></script>
+        <script type="text/javascript" src="../js/{javaScriptFile}.js" ></script>
+        
+    </head>
+    <body>
+        <div id="divMain">
+            <div id="divHeader">
+                <a href ="../index.php"><h1>Sistema de pruebas</h1></a>
+                <h2 class="pageTitle">{title}</h2>
+            </div>
+            <div id="divContent">
+                <div id="divSearch">
+                    <form id="frmSearch" name="frmSearch" method="POST" action="javascript:search()">
+                        Buscar : {inputSearch}
+                        <input id="btnSearch" name="btnSearch" type="button" value = "Buscar">
+                        <input id="btnNew" name="btnNew" type="button" value = "Nuevo...">
+                    </form>
+                </div>
+                
+                <div id="divData">
+                                        
+                </div>
+                
+                <div id="divFooter">
+                    <span class="pageFooter">{pageFooter}</span>
+                </div>
+            
+                <div id = "divMessage"></div>
+            </div>
+        </div>  
+    </body>
+</html>

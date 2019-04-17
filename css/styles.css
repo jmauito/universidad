@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/08/2017, 21:01:52
+    Author     : mauito
+*/
+
+
+
+#divMain{
+
+    min-width: 100px;
+}
+#divHeader, #divContent, #divFooter{
+    border: 1px solid #999999;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 10px;
+}
+#divHeader{
+    background-color: burlywood  ;
+}
+
+#divSearch, #divLegend{
+    width: 90%;
+    text-align: center;
+}
+#divLegend{
+    font-style: italic;
+    font-size: 70%;
+}
+
+#tblData{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.divLogin{
+    width: 50%;
+}
+.pageTitle{
+    font-weight: bold;
+    font-size: 110%;
+    color: brown;
+    
+}
+.pageFooter{
+    font-style: italic;
+    font-size: 80%;
+}
+
+.label{
+    font-weight: bold;
+    
+}
